@@ -1,2 +1,6 @@
-from exe2 import choice
-print("the choice is",choice )
+
+
+from exe3 import person
+print("list is", person)
+print(person["Age"])
+print(person["name"])
