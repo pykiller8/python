@@ -6,7 +6,7 @@ while True:
         print("Rock Paper Scissor Game:")
         youwin, computerwin = 0, 0
         for i in range(1,6):  # 5 round 
-            print("Round",i, "start:")
+            print("Round",i, "started:")
             print("Please select any option: ")
             print("1.Rock", "2.Paper", "3.Scissor", sep=" ")
             yourchoice = int(input())
