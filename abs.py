@@ -1,6 +1,6 @@
 import re
 
-txt = 'Nepal is a beautiful country'
+txt = 'Nepal is a beautiful country with beautiful places.'
 
 x = re.findall('Nepal', txt)
 print(x)
